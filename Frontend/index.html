@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Footprint Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="Favicon.jpeg">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌐 Digital Footprint Simulator</h1>
+    <p class="subtitle">
+      See how small online actions can slowly reveal information about you.
+    </p>
+
+    <div class="actions">
+      <button onclick="simulateAction('search')">Search something</button>
+      <button onclick="simulateAction('like')">Like a post</button>
+      <button onclick="simulateAction('location')">Allow location</button>
+      <button onclick="simulateAction('browse')">Browse content</button>
+    </div>
+
+    <div class="dashboard">
+      <div class="card">
+        <h3>How much info is revealed</h3>
+        <p id="score">0</p>
+        <span id="risk" class="low">Very little so far</span>
+      </div>
+
+      <div class="card">
+        <h3>Interests platforms may guess</h3>
+        <ul id="interests"></ul>
+      </div>
+
+      <div class="card">
+        <h3>Possible data noticed</h3>
+        <ul id="data"></ul>
+      </div>
+    </div>
+
+    <p class="note">
+      This is only a simple simulation to explain how digital footprints work.
+      No real tracking happens here.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
