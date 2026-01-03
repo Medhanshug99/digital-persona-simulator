@@ -1,0 +1,155 @@
+:root {
+  --primary: #3b82f6;
+  --primary-soft: #eff6ff;
+  --success: #22c55e;
+  --success-soft: #ecfdf5;
+  --bg: #f4f6f8;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fff1f2;
+  color: var(--text);
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* ---------- Headings ---------- */
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--muted);
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+}
+
+/* ---------- Actions ---------- */
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+button {
+  background: var(--primary-soft);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 12px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+/* ---------- Dashboard ---------- */
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* ---------- Cards ---------- */
+
+.card {
+  background: #ffffff;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+/* subtle color accent */
+.card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--primary);
+  border-radius: 12px 0 0 12px;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+/* ---------- Score ---------- */
+
+#score {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 6px 0;
+  color: var(--primary);
+}
+
+#risk {
+  font-size: 0.85rem;
+}
+
+/* ---------- Risk states ---------- */
+
+.low {
+  color: var(--success);
+}
+
+.medium {
+  color: #ca8a04;
+}
+
+.high {
+  color: #dc2626;
+}
+
+/* ---------- Lists ---------- */
+
+ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+/* ---------- Footer note ---------- */
+
+.note {
+  margin-top: 30px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  text-align: center;
+  color: var(--muted);
+}
