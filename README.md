@@ -2,7 +2,7 @@
 *A Digital Footprint Awareness Tool*
 
 ## Live Preview 
-https://digital-persona-simulator-js.vercel.app/
+(https://digital-persona-simulator-01.vercel.app/)
 
 ##  Overview
 **Digital Persona Simulator** demonstrates how everyday online actions contribute to a user’s digital persona.  
