@@ -1,10 +1,10 @@
-# 🧠 Digital Persona Simulator  
+#  Digital Persona Simulator  
 *A Digital Footprint Awareness Tool*
 
 ## Live Preview 
 https://digital-persona-simulator-js.vercel.app/
 
-## 📌 Overview
+##  Overview
 **Digital Persona Simulator** demonstrates how everyday online actions contribute to a user’s digital persona.  
 It simulates data collection by tracking common browser interactions and visualizes how platforms can infer user behavior over time.
 
@@ -12,7 +12,7 @@ This project focuses on **privacy awareness**, **data transparency**, and **user
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 To help users understand:
 - How simple interactions create a digital footprint
 - What kind of data can be inferred without personal details
@@ -20,7 +20,7 @@ To help users understand:
 
 ---
 
-## 🛠️ Features
+##  Features
 - Tracks basic user interactions (clicks, hovers, keystrokes, session time)
 - Builds a simulated digital persona in real time
 - Visual representation of collected behavioral data
@@ -28,14 +28,14 @@ To help users understand:
 
 ---
 
-## 💡 What It Demonstrates
+## What It Demonstrates
 - How websites monitor user behavior
 - How interaction data forms user profiles
 - The gap between user perception and actual data collection
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 - HTML  
 - CSS  
 - JavaScript  
